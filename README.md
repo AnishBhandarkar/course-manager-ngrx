@@ -5,41 +5,29 @@ A simple Angular app showcasing CRUD (Create, Read, Update, Delete) operations f
 ```markdown
 # NgRx Course CRUD
 
-A simple Angular application demonstrating **CRUD (Create, Read, Update, Delete)** operations using **NgRx Store** for state management.  
-This project does not use any backend API — all data is managed locally in the store.
+A simple Angular app showcasing CRUD (Create, Read, Update, Delete) operations for courses using NgRx Store. No backend or effects involved—data is fully managed in the client state. Built for learning and reference on Angular state management with NgRx.
 
 ## 🚀 Features
 - Add a new course
 - View list of courses
 - Update existing courses
 - Delete courses
-- State management handled with **NgRx Store**
+- State management handled with NgRx Store
 - No backend calls or effects — purely client-side state
 
 ## 🛠️ Tech Stack
-- **Angular**
-- **NgRx Store**
-- **Angular Material** (optional, for UI styling)
-
-## 📂 Project Structure
+- Angular
+- NgRx Store
+- Angular Material (optional, for UI styling)
 ```
-
-src/
-app/
-courses/
-\+ components/   // Course list, form, etc.
-\+ store/        // Actions, Reducers, Selectors
-app.module.ts
-app.component.ts
-
-````
 
 ## ▶️ Getting Started
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/ngrx-course-crud.git
-cd ngrx-course-crud
+cd angular-ngrx-crud
+
 ````
 
 ### 2. Install dependencies
@@ -51,7 +39,7 @@ npm install
 ### 3. Run the app
 
 ```bash
-ng serve
+ng serve -o
 ```
 
 Navigate to `http://localhost:4200/`.
