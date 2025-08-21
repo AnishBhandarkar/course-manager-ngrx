@@ -1,0 +1,17 @@
+<button (click)="addCourse()">Add course</button>
+
+<hr>
+
+<!-- Open Course form -->
+<ng-container *ngIf="toggleModal$ | async">
+    <app-course-edit></app-course-edit>
+</ng-container>
+
+
+<!-- Get course details -->
+<div class="show-courses">
+    <h2>Courses:</h2>
+    <ng-container *ngFor="let course of courses$ | async">
+        <app-course-card [course]="course"></app-course-card>
+    </ng-container>
+</div>

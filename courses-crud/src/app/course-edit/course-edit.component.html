@@ -1,0 +1,29 @@
+<div class="modal-container">
+    <div class="modal-content">
+        <span (click)="closeModal()" class="close-btn">X</span>
+        <h3>{{isEditMode ? 'Update course' : 'Add course'}}</h3>
+        <form [formGroup]="courseForm" (ngSubmit)="addCourse()">
+            <label>
+                Id
+                <input type="number" formControlName="id">
+            </label>
+
+            <label>
+                Name
+                <input type="text" formControlName="name">
+            </label>
+
+            <label>
+                Author
+                <input type="text" formControlName="author">
+            </label>
+
+            <label>
+                Price
+                <input type="number" formControlName="price">
+            </label>
+
+            <button type="submit">{{isEditMode? 'Update' : 'Add'}}</button>
+        </form>
+    </div>
+</div>

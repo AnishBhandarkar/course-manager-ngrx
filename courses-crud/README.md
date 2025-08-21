@@ -12,10 +12,11 @@ ng new courses-crud --no-standalone
 
 ## Dependency
 
-To add NgRx store, run:
+To add NgRx store and dev-tool, run:
 
 ```bash
 ng add @ngrx/store@latest
+ng add @ngrx/store-devtools
 ```
 
 ## Development server

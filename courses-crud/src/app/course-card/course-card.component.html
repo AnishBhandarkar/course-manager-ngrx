@@ -1,0 +1,11 @@
+
+<div class="card-container">
+    <div class="card">
+        <span>ID: {{ course['id'] }}</span>
+        <span>Name: {{ course['name'] }}</span>
+        <span>Course: {{ course['author'] }}</span>
+        <span>Price: {{ course['price'] }}</span>
+        <button (click)="update()">Update</button>
+        <button (click)="delete()">Delete</button>
+    </div>
+</div>
