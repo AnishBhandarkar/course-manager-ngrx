@@ -2,6 +2,22 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
 
+## Project creation command
+
+To create a no-standalone project, run:
+
+```bash
+ng new courses-crud --no-standalone
+```
+
+## Dependency
+
+To add NgRx store, run:
+
+```bash
+ng add @ngrx/store@latest
+```
+
 ## Development server
 
 To start a local development server, run:
