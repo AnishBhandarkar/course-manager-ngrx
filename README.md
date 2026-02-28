@@ -1,62 +1,59 @@
-# angular-ngrx-crud
-A simple Angular app showcasing CRUD (Create, Read, Update, Delete) operations for courses using NgRx Store. No backend or effects involved—data is fully managed in the client state. Built for learning and reference on Angular state management with NgRx.
+# NgRx Course Manager
+
+A lightweight Angular application demonstrating scalable state management using NgRx Store.
+
+This project showcases a clean and structured approach to handling CRUD operations entirely within the client-side state layer — without backend integration — making it ideal for understanding NgRx architecture patterns.
 
 ---
-```markdown
-# NgRx Course CRUD
 
-- A simple Angular app showcasing CRUD (Create, Read, Update, Delete) operations for courses using NgRx Store.
-- No backend or effects involved—data is fully managed in the client state.
-- Built for learning and reference on Angular state management with NgRx.
+## 🚀 Overview
 
-## 🚀 Features
-- Add a new course
-- View list of courses
-- Update existing courses
+NgRx Course Manager demonstrates:
+
+- Centralized state management
+- Unidirectional data flow
+- Immutable state updates
+- Reducer-driven CRUD logic
+- Feature-based state organization
+
+The application focuses on architecture and predictability rather than backend communication.
+
+---
+
+## 🧠 Architecture Highlights
+
+- Action-driven state transitions
+- Reducer-based immutable updates
+- Feature state isolation
+- Strong typing with Angular + TypeScript
+- Clean separation of concerns
+
+---
+
+## ✨ Features
+
+- Create new courses
+- Read/list courses
+- Update course details
 - Delete courses
-- State management handled with NgRx Store
-- No backend calls or effects — purely client-side state
+- Fully reactive UI using NgRx Store
+- No side effects or external APIs
 
-## 🛠️ Tech Stack
+---
+
+## 🛠 Tech Stack
+
 - Angular
 - NgRx Store
-- Angular Material (optional, for UI styling)
-```
+- TypeScript
+- Angular Material (UI)
+
+---
 
 ## ▶️ Getting Started
 
-### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/ngrx-course-crud.git
-cd angular-ngrx-crud
-
-````
-
-### 2. Install dependencies
-
-```bash
+git clone https://github.com/your-username/ngrx-course-manager.git
+cd ngrx-course-manager
 npm install
-```
-
-### 3. Run the app
-
-```bash
 ng serve -o
-```
-
-Navigate to `http://localhost:4200/`.
-
-## 🎯 Learning Goals
-
-This project is created for **practice/reference**:
-
-* To understand how NgRx Store manages state in Angular apps.
-* To learn CRUD operations without involving backend APIs.
-* To provide a starting point for more complex NgRx projects.
-
-## 📜 License
-
-This project is for personal learning and reference purposes.
-
-
-
